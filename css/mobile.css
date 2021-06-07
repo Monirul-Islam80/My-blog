@@ -1,0 +1,34 @@
+@media screen and (max-width: 900px) {
+    .navbar{
+        flex-wrap: wrap;
+        justify-content: center;
+       
+    }
+    .navleft ul{
+        flex-direction: column;
+    } 
+    .navleft ul li{
+        margin: 3px;
+    }
+    .searchh{
+        width: 100px;
+    }
+    .content{
+        height: 55vh;
+    }
+    .content img{
+        height: 55vh;
+    }
+    .contents{
+        margin: 0 0 0 3px;
+    }
+    .blog-right-content {
+        flex-direction: column;
+    }
+    .blog-right-content img{
+        max-width: 100%;
+    }
+    .felx-collum{
+        font-size: 60%;
+    }
+}
